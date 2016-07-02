@@ -1,9 +1,0 @@
-<div class="yo-dialog yo-dialog-a">
-  <h1>请输入关键字</h1>
-   <input type="text" name="" id="txt">
-
-   <footer class="ft">
-       <button action-type="close" class="yo-btn yo-btn-dialog yo-btn-l">取消</button>
-       <button class="yo-btn yo-btn-dialog yo-btn-l">确定</button>
-   </footer>
-</div>
