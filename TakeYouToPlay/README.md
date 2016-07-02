@@ -1,2 +1,0 @@
-### TakeYouToPlay.github.io
-taketoyouplay
