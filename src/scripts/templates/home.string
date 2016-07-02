@@ -1,0 +1,74 @@
+<div class="m-home">
+  <div class="logo">
+    <img src="/TakeYouToPlay/img/logo.png"/>
+  </div>
+ <section>
+   <div class="banner">
+   <div class="swiper-container">
+     <div class="swiper-wrapper" id="run-banner">
+       <div class="swiper-slide">
+         <img src="/TakeYouToPlay/img/1.jpg" />
+       </div>
+       <div class="swiper-slide">
+         <img src="/TakeYouToPlay/img/2.jpg" />
+       </div>
+       <div class="swiper-slide">
+         <img src="/TakeYouToPlay/img/3.jpg" />
+       </div>
+     </div>
+   </div>
+</div>
+
+<div>
+ <ul class="section-ul1" >
+   <li action-type="goto.run">
+     <img src="/TakeYouToPlay/img/homepagebutton3.png"/>
+      <p class="p1">带你玩</p><p>一手新鲜的活动咨询</p>
+   </li>
+   <li></li>
+   <li>
+     <span>
+       <img src="/TakeYouToPlay/img/homeplaywith.png"/>
+       <b>俱乐部</b>
+     </span>
+     <span>
+       <img src="/TakeYouToPlay/img/homeearth.png"/>
+           <div>
+           <b>去哪玩</b>
+            <p>优惠套餐</p>
+           </div>
+
+         </span>
+   </li>
+ </ul>
+<ul id="section-ul2">
+ <li>
+  <img src="/TakeYouToPlay/img/homejiangbei.png">
+  <div>
+  <b>教你玩</b>
+   <p>攻略、教学视频</p>
+  </div>
+ </li>
+ <li> </li>
+ <li>
+
+      <span>
+        <img src="/TakeYouToPlay/img/homeshop.png">
+         <p>商城</p>
+      </span>
+
+      <span>
+        <img src="/TakeYouToPlay/img/homephone.png">
+          <p>客服</p>
+      </span>
+
+     </li>
+   </ul>
+
+ </li>
+</ul>
+
+</div>
+
+ </section>
+</div>

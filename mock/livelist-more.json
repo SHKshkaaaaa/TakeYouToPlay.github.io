@@ -1,0 +1,31 @@
+{
+"res":true,
+"errcode":-1,
+"errmsg":"",
+"data":[
+  {
+    "imgsrc":"/TakeYouToPlay/img/01.jpg"
+  },
+  {
+    "imgsrc":"/TakeYouToPlay/img/02.jpg"
+  },
+  {
+    "imgsrc":"/TakeYouToPlay/img/03.jpg"
+  },
+  {
+    "imgsrc":"/TakeYouToPlay/img/04.jpg"
+  },
+  {
+    "imgsrc":"/TakeYouToPlay/img/05.jpg"
+  },
+  {
+    "imgsrc":"/TakeYouToPlay/img/06.jpg"
+  },
+  {
+    "imgsrc":"/TakeYouToPlay/img/07.jpg"
+  },
+  {
+    "imgsrc":"/TakeYouToPlay/img/08.jpg"
+  }
+]
+}

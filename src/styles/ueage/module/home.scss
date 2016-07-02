@@ -1,0 +1,215 @@
+.m-index{
+  .l-container{
+        .m-home{
+          @include flexbox();
+          @include flex-direction(column);
+          height: 100%;
+          div.logo{
+            z-index: 99999;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 1.35rem;
+            background: #fff;
+            @include flexbox();
+            @include flex-direction(column);
+            @include align-items(center);
+            img{
+              width: 50%;
+              height: 100%;
+            }
+          }
+
+          > * {
+            width: 100%;
+           }
+         section{
+          @include flex(1);
+           width: 100%;
+        #run-banner{
+          height: 1.35rem;
+          img{
+         width: 100%;
+         height: 100%;
+          }
+        }
+
+       .section-ul1{
+           @include box-sizing(border-box);
+         @include flex(1);
+        width: 100%;
+        @include flexbox();
+        margin-top: .05rem;
+        margin-left: .02rem;
+        li{
+
+           @include box-sizing(border-box);
+          &:nth-child(1){
+            @include flex(1);
+            padding-bottom: 30%;
+            background: #78b691;
+            @include border-radius(.05rem);
+            img{
+              width: 60%;
+              margin: 40% 20% 0 20%;
+            }
+             p{
+               font-weight:normal;
+               font-size: .12rem;
+               line-height: .12rem;
+               width: 90%;
+               margin: 5%;
+               text-align: center;
+               color:#fff;
+
+               &.p1{
+                 margin-top: 15%;
+                 padding-bottom: 0.1rem;
+                 border-bottom: 0.02rem solid #daffe9;
+               }
+             }
+
+          }
+          &:nth-child(2){
+            width: .02rem;
+          }
+          &:nth-child(3){
+            @include flex(1);
+             margin-right: 0.05rem;
+           span{
+             @include box-sizing(border-box);
+             @include border-radius(.08rem);
+             display: block;
+              width: 100%;
+             b,p{
+
+               color:#fff;
+               font-weight:normal;
+             }
+
+
+             &:nth-child(1){
+              @include border-radius(.08rem);
+              background: #729a7f;
+              padding: 35% 0 35% 5%;
+             img{
+               width: 40%;
+             }
+
+             }
+             &:nth-child(2){
+               margin-top: .03rem;
+               height: 100%;
+               background: #65baa7;
+               padding: 25% 0 40% 5%;
+               img{
+                 width: 40%;
+
+               }
+               div{ @include box-sizing(border-box);
+                   @include flexbox();
+                 display: inline-block;
+                  width: .6rem;
+              p{
+                font-size: .12rem;
+                 display: block;
+                 width: .55rem;
+              }
+               }
+             }
+
+           }
+
+          }
+        }
+
+       }
+
+    #section-ul2{
+      @include box-sizing(border-box);
+     @include flex(1);
+     width: 100%;
+     @include flexbox();
+     margin-top: .03rem;
+     margin-left: .02rem;
+     // margin-bottom: .1rem;
+      color: #fff;
+
+       li{
+           @include box-sizing(border-box);
+           &:nth-child(1){
+            //  @include flex(1);
+             background: #62a09b;
+             @include border-radius(.08rem);
+
+               width: 49.5%;
+                padding:5% 0 0% 3%;
+
+             img{
+               width: 20%;
+             }
+             div{
+               b{
+
+                 font-weight: normal;
+               }
+               display: inline-block;
+               p{
+                 font-size: 0.06rem;
+                 font-weight: normal;
+               }
+             }
+           }
+           &:nth-child(2){
+             width: .02rem;
+           }
+           &:nth-child(3){
+
+             @include flex(1);
+              margin-right: 0.05rem;
+              img{
+                width: 30%;
+              }
+              span{
+                 height: 100%;
+                 padding: 11% 0;
+                 display:inline-block;
+                @include flexbox();
+                @include flex-direction(column);
+                @include align-items(center);
+                  @include border-radius(.08rem);
+                 @include box-sizing(border-box);
+                 width: 49%;
+                 float: left;
+                 p{
+                   font-size: 0.08rem;
+                   font-weight: normal;
+                 }
+                &:nth-child(1){
+                  background: #4a9e8e;
+
+                }
+                &:nth-child(2){
+                    margin-left: 1%;
+                  background: #7ad2a0;
+                }
+              }
+
+            }
+       }
+
+
+    }
+
+
+
+
+
+         }
+
+        }
+
+
+  }
+}

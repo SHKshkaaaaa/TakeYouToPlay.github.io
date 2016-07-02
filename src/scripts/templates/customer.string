@@ -1,0 +1,89 @@
+<div class="m-customer">
+  <header>
+    <ul>
+      <li></li>
+      <li>
+            <ul id="customer-coach">
+              <li class="active" action-type="switch.tabs">
+                用户
+              </li>
+              <li action-type="switch.tabs">
+              教练
+              </li>
+            </ul>
+
+      </li>
+      <li action-type="search">
+        <img src="/TakeYouToPlay/img/sousuo.png"/>
+      </li>
+    </ul>
+  </header>
+
+
+
+
+
+
+     <div class="swiper-container" id="customer-swiper">
+       <div class="swiper-wrapper">
+         <div class="swiper-slide">
+           <section spa-widget="scroll" data-scroll-id="homeHotScroll" >
+          <div>
+            <!-- <div class="head">
+                    <img src="/TakeYouToPlay/img/arrow.png" width="40" height="40"/>
+                    <span>下拉刷新...</span>
+            </div> -->
+
+            <ul ms-repeat-value="livelist" class="">
+                <li>
+                  <img ms-src="value[0].imgsrc">
+                </li>
+                <li ms-class-hide="!value[1]">
+                  <img ms-src="value[1].imgsrc">
+                </li>
+                <li ms-class-hide="!value[2]">
+                  <img ms-src="value[2].imgsrc">
+                </li>
+                <li ms-class-hide="!value[3]">
+                  <img ms-src="value[3].imgsrc">
+                </li>
+              </ul>
+
+            <!-- <div class="foot">
+                    <img src="/TakeYouToPlay/img/arrow.png" width="40" height="40"/>
+                    <span>上拉加载更多...</span>
+            </div> -->
+          </div>
+           </section>
+         </div>
+         <div class="swiper-slide">
+               <div>33333</div>
+         </div>
+
+       </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,13 @@
+<div class="m-index">
+  <div class="l-container"></div>
+  <div class="h1"></div>
+<footer>
+<ul>
+  <li action-type="switch.tabs" class="active" data-tag="home"><i class="yo-ico">&#xe730;</i><b>首页</b></li>
+  <li action-type="switch.tabs"  data-tag="together"><i class="yo-ico">&#xe686;</i><b>一起秀</b></li>
+  <li action-type="switch.tabs"  data-tag="chat"><i class="yo-ico">&#xe616;</i><b>聊天</b></li>
+  <li action-type="switch.tabs" data-tag="customer"><i class="yo-ico">&#xe668;</i><b>一起玩</b></li>
+  <li action-type="switch.tabs" data-tag="my"><i class="yo-ico">&#xe633;</i><b>我的</b></li>
+</ul>
+</footer>
+</div>
